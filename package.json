@@ -1,0 +1,47 @@
+{
+  "name": "advanced-express-course",
+  "version": "1.0.0",
+  "description": "Course about Advanced Web Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "hotdeploy": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharmaodo/advanced-express-course.git"
+  },
+  "keywords": [
+    "express",
+    "dotenv",
+    "nodejs",
+    "postgresql",
+    "docker",
+    "logguer",
+    "morgan",
+    "docker-compose",
+    "ci",
+    "cd"
+  ],
+  "author": "Maodo DIOP & Master 2 of UADB (year 2023-2024)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kharmaodo/advanced-express-course/issues"
+  },
+  "homepage": "https://github.com/kharmaodo/advanced-express-course#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
